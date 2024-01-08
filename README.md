@@ -1,4 +1,4 @@
-# go-observer
+# go-onecontext
 
 Merge multiple context.Context.  I have run across a need for this at least two dozen times.  A common case is when you 
 need to cleanly shutdown an HTTP server in go and you need a way to interrupt all the requests no matter their state.  
